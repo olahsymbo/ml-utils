@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "machine learning utilities"
+version = "0.1.0"
+description = "Package for several ML techniques"
+authors = ["olahsymbo <olahsymbo@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -70,13 +70,16 @@ class DataFiltering:
         self.percentage = percentage
 
     def filter_data(self):
+        filtered_data = self.data.copy()
 
         if self.method == "row":
-            null_percentage = self.data.isnull().sum(axis=1) / self.data.shape[1] * 100
+            null_percentage = filtered_data.isnull().sum(axis=1) / filtered_data.shape[1] * 100
             rows_to_drop = null_percentage[null_percentage > self.percentage].index
-            self.data.drop(rows_to_drop, inplace=True)
+            filtered_data.drop(rows_to_drop, inplace=True)
 
         elif self.method == "column":
-            null_percentage = self.data.isnull().sum() / self.data.shape[0] * 100
+            null_percentage = filtered_data.isnull().sum() / filtered_data.shape[0] * 100
             col_to_drop = null_percentage[null_percentage > self.percentage].keys()
-            self.data.drop(col_to_drop, axis=1, inplace=True)
+            filtered_data.drop(col_to_drop, axis=1, inplace=True)
+
+        return filtered_data

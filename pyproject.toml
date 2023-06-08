@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "machine learning utilities"
+name = "preprocess"
 version = "0.1.0"
 description = "Package for several ML techniques"
 authors = ["olahsymbo <olahsymbo@gmail.com>"]

@@ -1,7 +1,7 @@
 from sklearn.preprocessing import LabelEncoder
 
 
-class Preprocess:
+class NumericEncoder:
 
     def __init__(self, data):
         self.data = data

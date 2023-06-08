@@ -1,3 +1,4 @@
+[![ML-UTILS-Pipeline](https://github.com/olahsymbo/ml-utils/actions/workflows/ml_utils_ci.yml/badge.svg)](https://github.com/olahsymbo/ml-utils/actions/workflows/ml_utils_ci.yml)
 # ML-UTILS
 
 This project provides implementations of various machine learning algorithms. It aims to provide a comprehensive collection of algorithms for tasks such as classification, regression, clustering, and more. The project utilizes Python 3.8 and the Poetry package manager.

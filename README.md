@@ -4,11 +4,10 @@ This project provides implementations of various machine learning algorithms. It
 
 ## Table of Contents
 
-* Installation
-* Usage
-* Supported Algorithms
-* Contributing
-* License
+* [Installation](#installation)
+* [Usage](#usage) 
+* [Contributing](#contributing)
+* [License](#license)
 
 ### Installation
 
@@ -69,4 +68,4 @@ Please ensure that your contributions align with the project's coding style and 
 
 
 ### License
-This project is licensed under the MIT License. You are free to use, modify, and distribute the code for both commercial and non-commercial purposes. See the LICENSE file for more details.
+This project is licensed under the [MIT License](https://github.com/olahsymbo/ml-utils/blob/8ec2bfcfa511bdf838f19288813de4ae8a6396f5/LICENSE). You are free to use, modify, and distribute the code for both commercial and non-commercial purposes. See the [LICENSE](https://github.com/olahsymbo/ml-utils/blob/8ec2bfcfa511bdf838f19288813de4ae8a6396f5/LICENSE) file for more details.
